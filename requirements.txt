@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# requirements.txt
+# Forest Cover Type Classification — M.Tech AIML | ML Assignment 2
+# Student ID: 2025ac05972
+# ─────────────────────────────────────────────────────────────────────────────
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Web application framework
+streamlit>=1.35.0
+
+# Machine learning — models, preprocessing, and metrics
+scikit-learn>=1.4.0
+
+# Data manipulation and numerical operations
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Visualisation
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Model serialisation (used by train_models.py)
+# pickle is part of the Python standard library — no install needed
+
+# Jupyter notebook support (for notebooks/model_training.ipynb)
+jupyter>=1.0.0
+ipykernel>=6.29.0
+nbformat>=5.10.0

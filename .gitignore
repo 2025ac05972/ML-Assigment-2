@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .gitignore — Forest Cover Type ML Assignment
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# sklearn dataset cache (auto-downloaded, not needed in repo)
+# Uncomment only if you want to exclude the sklearn data cache:
+# ~/scikit_learn_data/
+
+# Large auto-generated files — DO NOT ignore model/ or test_data.csv
+# Those are required for Streamlit Cloud deployment
