@@ -10,10 +10,8 @@
 
 | Resource | URL |
 |----------|-----|
-| GitHub Repository | `[https://github.com/2025ac05972/ML-Assigment-2.git](https://github.com/2025ac05972/ML-Assigment-2.git)` |
-| Live Streamlit App | `[https://ml-assigment-2-yu3hps2en74dqrkul3yf6h.streamlit.app/](https://ml-assigment-2-yu3hps2en74dqrkul3yf6h.streamlit.app/)` |
-
-> Replace the placeholders above with your actual GitHub username and deployed app URL.
+| GitHub Repository | https://github.com/2025ac05972/ML-Assigment-2 |
+| Live Streamlit App | https://ml-assigment-2-yu3hps2en74dqrkul3yf6h.streamlit.app |
 
 ---
 
@@ -130,8 +128,8 @@ is genuinely learning to distinguish all 7 cover types.
 ### Setup
 
 ```bash
-git clone https://github.com/<your-username>/forest-cover-type-classifier.git
-cd forest-cover-type-classifier
+git clone https://github.com/2025ac05972/ML-Assigment-2.git
+cd ML-Assigment-2
 pip install -r requirements.txt
 ```
 
