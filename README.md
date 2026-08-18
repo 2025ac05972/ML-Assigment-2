@@ -10,8 +10,8 @@
 
 | Resource | URL |
 |----------|-----|
-| GitHub Repository | `[https://github.com/<your-username>/forest-cover-type-classifier](https://ml-assigment-2-yu3hps2en74dqrkul3yf6h.streamlit.app/)` |
-| Live Streamlit App | `https://ml-assigment-2-yu3hps2en74dqrkul3yf6h.streamlit.app/` |
+| GitHub Repository | `[[https://github.com/<your-username>/forest-cover-type-classifie](https://github.com/2025ac05972/ML-Assigment-2.git)` |
+| Live Streamlit App | `[https://ml-assigment-2-yu3hps2en74dqrkul3yf6h.streamlit.app/](https://ml-assigment-2-yu3hps2en74dqrkul3yf6h.streamlit.app/)` |
 
 > Replace the placeholders above with your actual GitHub username and deployed app URL.
 
