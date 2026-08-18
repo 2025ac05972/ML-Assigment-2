@@ -1,7 +1,8 @@
-﻿# Streamlit app for ML Assignment 2
+# Streamlit app for ML Assignment 2
 # 2025ac05972 | BITS Pilani WILP
 # run with: streamlit run app.py
 
+import gzip
 import os
 import pickle
 import warnings
@@ -197,6 +198,10 @@ def load_scaler():
 @st.cache_resource(show_spinner=False)
 def load_model(name):
     p = os.path.join(MODEL_DIR, model_files[name])
+    p_gz = p + ".gz"
+    if os.path.exists(p_gz):
+        with gzip.open(p_gz, "rb") as f:
+            return pickle.load(f)
     if not os.path.exists(p):
         return None
     with open(p, "rb") as f:
